@@ -1,0 +1,23 @@
+__pycache__/
+.venv/
+*.sqlite*
+*.zip
+*.jsonl
+demo-output*/
+migration-rehearsal/
+.test-*/
+.codex*/
+auth.json
+project-map.json
+config.toml
+
+# Local runs and exported data
+.user-*/
+.select-*/
+.python-entry-*/
+chm-plan-*/
+windows-fictional.sha256
+.env
+.DS_Store
+
+.compat-*/
