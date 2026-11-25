@@ -1,5 +1,7 @@
 # 使用指南
 
+**简体中文** · [English](usage.en.md)
+
 ## 检查 Python
 
 Mac 直接使用 README 中的 `/bin/bash ./mac.sh`。它会检查本机的 Codex 运行时、常见安装目录、环境管理器和 PATH 里的 Python。预览和合并要求 Python 3.11+，其实际加载的 SQLite 要达到 3.41.0，且能读取 Codex 使用的 JSON 表达式索引。用能启动的旧 `python3` 执行 `cli.py` 时也会转到这个入口。若系统 `python3` 弹出安装提示，请用 README 中的 Bash 命令。

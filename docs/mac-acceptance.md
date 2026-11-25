@@ -1,5 +1,7 @@
 # 贡献者指南：Mac 自动验收
 
+**简体中文** · [English](mac-acceptance.en.md)
+
 用于在 macOS 上用虚构数据验收迁移核心。把 `windows-fictional.zip` 和 `windows-fictional.sha256` 放在仓库外的同一个文件夹。交接包在 `verification/mac-test/` 里已备好这两个文件。也可以按[复现说明](validation.md#如何复现)在 Windows 生成一份。验收器使用系统临时目录中的隔离资料。
 
 在含 `cli.py` 的项目根目录使用 Python 3.11+ 和该解释器加载的 SQLite 3.41.0+。将 `--fixture-dir` 的值设为虚构资料所在的实际目录。使用交接包中的资料时，命令如下。
