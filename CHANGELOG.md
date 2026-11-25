@@ -1,5 +1,7 @@
 # 变更记录
 
+**简体中文** · [English](CHANGELOG.en.md)
+
 ## v0.1.0-rc.16
 
 - Windows 和 Mac 共用 Python 与 SQLite 检查，跳过无法安全读取 Codex 历史索引的解释器。
