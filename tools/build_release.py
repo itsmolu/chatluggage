@@ -15,7 +15,8 @@ from cli import VERSION
 
 PACKAGE_ROOT = 'codex-history-migration'
 FILES = (
-    'README.md', 'CHANGELOG.md', 'CONTRIBUTING.md', 'LICENSE', '.gitignore', '.gitattributes',
+    'README.md', 'README.en.md', 'CHANGELOG.md', 'CHANGELOG.en.md',
+    'CONTRIBUTING.md', 'CONTRIBUTING.en.md', 'LICENSE', '.gitignore', '.gitattributes',
     'cli.py', 'chat_selection.py', 'mac.sh', 'demo.py', 'windows_export.py', 'history_migration.py', 'migration_workflow.py', 'platform_paths.py',
     'schema_compat.py',
     'tests/__init__.py', 'tests/test_migration.py', 'tests/test_native.py', 'tests/test_user_flow.py',
@@ -23,9 +24,11 @@ FILES = (
     'tests/test_compatibility.py', 'tests/fixtures/schema-62-8.json', 'tests/fixtures/schema-64-9.json',
     'tools/build_release.py', 'tools/check_release.py', 'tools/verify_installed_schema.py',
     'tools/accept_mac.py', 'tools/full_flow_fixture.py', 'tools/verify_compatibility.py',
-    'docs/usage.md', 'docs/project-paths.md', 'docs/validation.md',
-    'docs/mac-acceptance.md', 'docs/full-rehearsal.md',
-    'docs/implementation-review.md',
+    'docs/usage.md', 'docs/usage.en.md', 'docs/project-paths.md', 'docs/project-paths.en.md',
+    'docs/validation.md', 'docs/validation.en.md',
+    'docs/mac-acceptance.md', 'docs/mac-acceptance.en.md',
+    'docs/full-rehearsal.md', 'docs/full-rehearsal.en.md',
+    'docs/implementation-review.md', 'docs/implementation-review.en.md',
 )
 
 
